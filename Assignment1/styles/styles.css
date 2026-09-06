@@ -26,6 +26,12 @@ h5 {
     color:rgb(144, 204, 237);
 }
 
+textarea{
+    align-items: center;
+    align-content: center;
+    size:100px;
+}
+
 body {
   background-color: rgb(23, 23, 23);
   padding: 20px;
