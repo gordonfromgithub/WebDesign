@@ -14,12 +14,14 @@ h3 {
 }
 
 h4 {
-    size: x-large;
+    size: xx-large;
+    text-align: center;
     color:rgb(255, 66, 66)
 }
 
 h5 {
     size: medium;
+    text-align: center;
     color:rgb(144, 204, 237);
 }
 
@@ -34,5 +36,9 @@ img {
 }
 
 legend{
+    color: rgb(144, 204, 237);
+}
+
+div{
     color: rgb(144, 204, 237);
 }
