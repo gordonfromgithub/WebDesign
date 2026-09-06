@@ -1,15 +1,24 @@
 h1 {
-  color: midnightblue;
+  color: rgb(144, 204, 237);
   text-align: center;
-  border-style: dashed;
+  border-style: double;
+}
+
+h2 {
+  color: rgb(144, 204, 237);
+  text-align: center;
 }
 
 body {
-  background-color: powderblue;
+  background-color: rgb(23, 23, 23);
   padding: 20px;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+legend{
+    color: rgb(144, 204, 237);
 }
