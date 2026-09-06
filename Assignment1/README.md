@@ -1,3 +1,3 @@
 # Generative AI policing website
-## This website's development is fueled purely by rage and apathy for the course and professor that demand its existence.
-If you are reading this, I will be genuinely impressed, and retract a fraction of the harsh criticism I've directed towards you thus far. Most likely, however, you will be relying on genAI to grade these assignments, much the same as how you have relied on it to create the contents of the course.
+## This website's development is fueled purely by spite and frustration, with the nature of this course leaving me unable to come up with any other ideas.
+If you are reading this, I will be genuinely impressed, and retract some the harsh criticism I've directed towards you thus far. Regardless, I sincerely hope you understand why the excessive use of generative AI in a course plan frustrates me to this degree.
