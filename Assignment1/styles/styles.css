@@ -42,14 +42,10 @@ img {
   height: auto;
 }
 
-fieldset{
-    color: rgb(144, 204, 237);
-}
-
 legend{
     color: rgb(144, 204, 237);
 }
 
-div{
+label{
     color: rgb(144, 204, 237);
 }
