@@ -26,10 +26,9 @@ h5 {
     color:rgb(144, 204, 237);
 }
 
-textarea{
-    align-items: center;
-    align-content: center;
-    size:100px;
+#story {
+    width: 50%;
+    height: 150px;
 }
 
 body {
@@ -40,6 +39,9 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 legend{
