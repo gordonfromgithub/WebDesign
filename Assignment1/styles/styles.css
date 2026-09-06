@@ -11,16 +11,17 @@ h2 {
 
 h3 {
     color: rgb(23, 23, 23);
+    text-align: center;
 }
 
 h4 {
-    size: xx-large;
+    font-size: 40px;
     text-align: center;
     color:rgb(255, 66, 66)
 }
 
 h5 {
-    size: medium;
+    font-size: 20px;
     text-align: center;
     color:rgb(144, 204, 237);
 }
