@@ -9,6 +9,20 @@ h2 {
   text-align: center;
 }
 
+h3 {
+    color: rgb(23, 23, 23);
+}
+
+h4 {
+    size: x-large;
+    color:rgb(255, 66, 66)
+}
+
+h5 {
+    size: medium;
+    color:rgb(144, 204, 237);
+}
+
 body {
   background-color: rgb(23, 23, 23);
   padding: 20px;
