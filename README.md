@@ -1,1 +1,2 @@
 # WebDesign
+## This is the root repository for my Intro to Web Design course. Individual assignments can be found inside their respective folders.

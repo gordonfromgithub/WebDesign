@@ -1,1 +1,3 @@
-This is the root repository for my Intro to Web Design course. Individual assignments can be found inside their respective folders.
+# Generative AI policing website
+## This website's development is fueled purely by rage and apathy for the course and professor that demand its existence.
+If you are reading this, I will be genuinely impressed, and retract a fraction of the harsh criticism I've directed towards you thus far. Most likely, however, you will be relying on genAI to grade these assignments, much the same as how you have relied on it to create the contents of the course.
