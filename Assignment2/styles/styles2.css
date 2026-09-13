@@ -26,12 +26,12 @@ h2 {
         max-width: 100%;
         margin: 0 auto;
         background-color: #000000;
+        text-align: center;
     }
 
     .topshelf ul {
 
         padding: 5px;
-        text-align: center;
     }
 
     .topshelf li {
