@@ -1,0 +1,3 @@
+# Generative AI policing website
+## This website's development is fueled purely by spite and frustration, with the nature of this course leaving me unable to come up with any other ideas.
+If you are reading this, I will be genuinely impressed, and retract some the harsh criticism I've directed towards you thus far. Regardless, I sincerely hope you understand why the excessive use of generative AI in a course plan frustrates me to this degree.

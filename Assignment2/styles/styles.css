@@ -1,0 +1,57 @@
+h1 {
+  color: rgb(144, 204, 237);
+  text-align: center;
+  border-style: double;
+}
+
+h2 {
+  color: rgb(144, 204, 237);
+  text-align: center;
+}
+
+h3 {
+    color: rgb(23, 23, 23);
+    text-align: center;
+}
+
+h4 {
+    font-size: 40px;
+    text-align: center;
+    color:rgb(255, 66, 66)
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+    color:rgb(144, 204, 237);
+}
+
+#story {
+    width: 50%;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+body {
+  background-color: rgb(23, 23, 23);
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+legend{
+    color: rgb(144, 204, 237);
+}
+
+label{
+    color: rgb(144, 204, 237);
+}
