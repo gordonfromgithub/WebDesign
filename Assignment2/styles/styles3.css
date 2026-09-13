@@ -3,6 +3,11 @@ body {
   padding: 20px;
 }
 
+/* Navigation bar background */
+nav {
+    background-color: #080006;
+}
+
 /* top nav bar styling */
 
 .topshelf {
@@ -14,7 +19,7 @@ body {
 }
 
 .topshelf li {
-    display: inline-block;
+    display: inline-block; /* displays links horizontally instead of vertically */
     margin: 0 15px;
 }
 
