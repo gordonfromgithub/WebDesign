@@ -1,0 +1,23 @@
+h4 {
+    font-size: 40px;
+    text-align: center;
+    color:rgb(255, 66, 66)
+}
+
+body {
+  background-color: rgb(23, 23, 23);
+  padding: 20px;
+}
+
+h2 {
+  color: rgb(144, 204, 237);
+  text-align: center;
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
+  color: greenyellow;
+  display: none;
+  font-family: Georgia, serif;
+}
