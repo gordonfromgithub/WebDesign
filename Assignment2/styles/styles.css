@@ -57,15 +57,30 @@ label{
     color: rgb(144, 204, 237);
 }
 
-li {
-  list-style-type: none;
-  color: navy;
-  display: inline-block;
-  font-family: Georgia, serif;
-}
+/* Navigation bar background */
 
 nav {
-  max-width: 100%;
-  margin: 0 auto;
-  background-color: #000000;
-    }
+    background-color: #080006;
+}
+
+/* top nav bar styling */
+
+.topshelf {
+/* nav bar styling class */
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.topshelf li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.topshelf a {
+    color: rgb(251, 251, 251);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
