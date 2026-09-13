@@ -74,7 +74,7 @@ nav {
 }
 
 .topshelf li {
-    display: inline-block;
+    display: inline-block; /* displays links horizontally instead of vertically */
     margin: 0 15px;
 }
 
