@@ -1,16 +1,16 @@
-
-
-li {
-    /* Space between each link */
-    margin-bottom: 10px;
-    list-style-type: none;
+.sources {
+    /* separate list of links from nav bar list */
+    list-style-type: disc;
 }
 
-a {
-    /* Link text customization */
+.sources li {
+    /* space between links */
+    margin-bottom: 10px;
+}
+
+.sources a {
+    /* change text color/font/size */
     color: greenyellow;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
     font-size: 18px;
-    font-weight: normal;
-    text-decoration: none;
 }
