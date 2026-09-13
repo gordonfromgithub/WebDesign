@@ -1,0 +1,25 @@
+.website-links {
+    /* List customization */
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.website-links li {
+    /* Space between each link */
+    margin-bottom: 10px;
+}
+
+.website-links a {
+    /* Link text customization */
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.website-links a:hover {
+    /* Appearance when the mouse hovers over a link */
+    color: red;
+    text-decoration: underline;
+}
