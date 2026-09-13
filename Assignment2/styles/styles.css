@@ -57,3 +57,10 @@ label{
     color: rgb(144, 204, 237);
 }
 
+li {
+  list-style-type: none;
+  color: navy;
+  display: inline-block;
+  font-family: Georgia, serif;
+}
+
