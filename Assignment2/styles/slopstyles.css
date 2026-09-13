@@ -17,7 +17,7 @@ h2 {
 
 /* Navigation bar background */
 nav {
-    background-color: #fa05b5;
+    background-color: #080006;
 }
 
 /* top nav bar styling */
@@ -57,7 +57,7 @@ nav {
 .sources a {
     /* change text color/font/size */
     color: greenyellow;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     text-decoration: none;
 }
