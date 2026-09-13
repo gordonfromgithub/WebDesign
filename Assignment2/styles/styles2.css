@@ -36,13 +36,14 @@ h2 {
 
     .topshelf li {
         list-style-type: none;
-        display: inline-block;
+        display: inline;
         margin: 0 10px;
         padding: 5px 10px;
     }
 
-    .topshelf a {
-        color: #FFFFFF;
+    .topshelf a { /* customization */
+        color: rgb(144, 204, 237);
+        text-decoration: none;
     }
 
 /* list of links styling */
