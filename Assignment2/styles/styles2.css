@@ -15,9 +15,9 @@ h2 {
   font-size: 20px;
 }
 
-ul {
+li {
   list-style-type: none;
   color: greenyellow;
-  display: inline;
+  display: inline-block;
   font-family: Georgia, serif;
 }
