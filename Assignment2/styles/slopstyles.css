@@ -20,21 +20,21 @@ nav {
     background-color: #fa05b5;
 }
 
-/* Navigation list */
+/* top nav bar styling */
+
 .topshelf {
+/* nav bar styling class */
     list-style-type: none;
     margin: 0;
     padding: 15px 0;
     text-align: center;
 }
 
-/* Navigation entries */
 .topshelf li {
     display: inline-block;
     margin: 0 15px;
 }
 
-/* Navigation link text */
 .topshelf a {
     color: rgb(251, 251, 251);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -60,4 +60,13 @@ nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
     font-size: 20px;
     text-decoration: none;
+}
+
+/* image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
