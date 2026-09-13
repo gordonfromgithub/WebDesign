@@ -15,18 +15,37 @@ h2 {
   font-size: 20px;
 }
 
-/* I give up let's just raw dog it */
-    nav {
+/* top nav bar styling */
+
+    .topshelf {
+    /* nav bar styling class */
+    list-style-type: disc;
+    }
+
+    .topshelf nav {
         max-width: 100%;
         margin: 0 auto;
         background-color: #000000;
     }
 
-    ul {
+    .topshelf ul {
 
         padding: 5px;
         text-align: center;
     }
+
+    .topshelf li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 5px 10px;
+    }
+
+    .topshelf a {
+        color: #FFFFFF;
+    }
+
+/* list of links styling */
 
 .sources {
     /* separate css styling from nav bar */
