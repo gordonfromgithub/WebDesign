@@ -26,11 +26,13 @@ body {
 }
 
 h1 {
-    color:white
+    color:white;
+    text-align: center;
 }
 
 h2 {
-    color:white
+    color:white;
+    text-align: center;
 }
 
 /* image gallery */
