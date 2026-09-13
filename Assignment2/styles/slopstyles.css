@@ -3,6 +3,7 @@
 li {
     /* Space between each link */
     margin-bottom: 10px;
+    list-style-type: none;
 }
 
 a {
