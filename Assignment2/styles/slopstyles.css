@@ -16,27 +16,28 @@ h2 {
 }
 
 /* Navigation bar background */
-.topshelf {
+nav {
     background-color: #000000;
 }
 
 /* Navigation list */
-.topshelf ul {
-    list-style-type: none; /* Removes bullet points */
+.topshelf {
+    list-style-type: none;
     margin: 0;
-    padding: 15px;
-    text-align: center;    /* Centers the list items */
+    padding: 15px 0;
+    text-align: center;
 }
 
-/* Individual navigation items */
+/* Navigation entries */
 .topshelf li {
-    display: inline-block; /* Displays items horizontally */
-    margin: 0 15px;        /* Equal spacing between items */
+    display: inline-block;
+    margin: 0 15px;
 }
 
 /* Navigation link text */
 .topshelf a {
-    color: rgb(144, 204, 237);
+    color: rgb(251, 251, 251);
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -56,5 +57,6 @@ h2 {
     /* change text color/font/size */
     color: greenyellow;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    text-decoration: none;
 }

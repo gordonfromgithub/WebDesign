@@ -62,5 +62,6 @@ h2 {
     /* change text color/font/size */
     color: greenyellow;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    text-decoration: none;
 }
