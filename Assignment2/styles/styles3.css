@@ -2,3 +2,33 @@ body {
   background-color: rgb(23, 23, 23);
   padding: 20px;
 }
+
+/* top nav bar styling */
+
+.topshelf {
+/* nav bar styling class */
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.topshelf li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.topshelf a {
+    color: rgb(251, 251, 251);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h1 {
+    color:white
+}
+
+h2 {
+    color:white
+}
