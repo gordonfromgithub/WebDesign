@@ -32,3 +32,18 @@ h1 {
 h2 {
     color:white
 }
+
+/* image gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+
+    justify-content: center;
+
+    gap: 30px;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+}
