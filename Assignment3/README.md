@@ -1,0 +1,1 @@
+# I still don't feel like I have a solid grasp on lists, but like all my previous coding experiences; it's easiest to start an example that you (or someone else) has already built, and modify it to see what changes. I at least have a fairly decent understanding of the surface-level logic of CSS as a whole now, and learning how to use classes was especially helpful.
