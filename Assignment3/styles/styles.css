@@ -124,8 +124,8 @@ img {
     align-self: center;
 }
 
-.greenText {
-    color: rgb(6, 232, 66);
+.pinkText {
+    color: pink;
 }
 
 /* reusable card template */
