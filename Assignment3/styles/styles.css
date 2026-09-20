@@ -136,10 +136,10 @@ img {
 
 .support-card {
  display: inline-block;
- max-width: 400px;
- max-height: 500px;
+ width: 400px;
+ height: 500px;
  height: auto;
- background-color: red;
+ background-color: pink;
  padding: 10px;
  padding-bottom: 35px;
  margin: 1%;
