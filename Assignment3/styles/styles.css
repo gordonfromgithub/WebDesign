@@ -102,9 +102,8 @@ img {
     align-self: center;
 }
 
-.linkText {
+.pinkText {
     color: pink;
-    text-decoration: underline;
 }
 
 /* listed links styling (as opposed to paragraph insert links) */
