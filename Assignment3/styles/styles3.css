@@ -48,7 +48,7 @@ h2 {
 /* image gallery */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(3, 250px);
 
     justify-content: center;
 
@@ -56,8 +56,8 @@ h2 {
 }
 
 .gallery img {
-    max-width: 200px;
-    max-height: 250px;
+    max-width: 400px;
+    max-height: 500px;
 
     width: auto;
     height: auto;
