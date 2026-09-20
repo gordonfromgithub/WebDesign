@@ -48,7 +48,7 @@ h2 {
 /* image gallery */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 100px);
 
     justify-content: center;
 
