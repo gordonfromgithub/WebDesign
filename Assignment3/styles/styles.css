@@ -136,7 +136,8 @@ img {
 
 .support-card {
  display: inline-block;
- max-width: 25%;
+ max-width: 400px;
+ max-height: 500px;
  height: auto;
  background-color: red;
  padding: 10px;
