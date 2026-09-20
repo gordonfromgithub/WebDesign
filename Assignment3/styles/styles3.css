@@ -91,17 +91,17 @@ h2 {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.gold {
+.sources a.gold {
     color: gold;
-    text-decoration: underline;    
-}
-
-.silver{
-    color:silver;
     text-decoration: underline;
 }
 
-.bronze{
-    color:rgb(165, 116, 42);
+.sources a.silver {
+    color: silver;
+    text-decoration: underline;
+}
+
+.sources a.bronze {
+    color: rgb(165, 116, 42);
     text-decoration: underline;
 }
