@@ -65,3 +65,8 @@ h2 {
     justify-self: center;
     align-self: center;
 }
+
+.linkText {
+    color: pink;
+    text-decoration: underline;
+}
