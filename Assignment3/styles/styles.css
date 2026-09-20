@@ -139,7 +139,7 @@ img {
  width: 400px;
  height: 500px;
  height: auto;
- background-color: pink;
+ background-color: red;
  padding: 10px;
  padding-bottom: 35px;
  margin: 1%;
@@ -161,7 +161,8 @@ img {
 
 .support-card img {
  display: block;
- max-width: 70%;
+ max-height: 500px;
+ max-width: auto;
  margin: 0 auto;
  padding-bottom: 7%;
 }
