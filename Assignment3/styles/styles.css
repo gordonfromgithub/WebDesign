@@ -70,6 +70,28 @@ h2 {
         object-fit: cover;
     }
 
+    /* blockquote styling*/
+
+    .hero blockquote {
+        text-align: center;
+        max-width: 100%;
+        margin: 0;
+        font-weight: bold;
+        font-size: 22px;
+        background-color: #628578;
+        color: #f3f6ff;
+        padding-top: 3%;
+    }
+
+    .hero cite {
+        display: block;
+        text-align: center;
+        color: #e0e4a0;
+        background-color: #628578;
+        padding-top: 1%;
+        padding-bottom: 3%;
+    }
+
 /* image styling */
 img {
     max-width: 400px;
@@ -106,37 +128,45 @@ img {
     color: pink;
 }
 
-/* listed links styling (as opposed to paragraph insert links) */
+/* reusable card template */
 
-.sources {
-    list-style-type: none; /* removes bullet points */
+.support-card-group { /* parent class */
+ text-align: center;
 }
 
-.sources li {
-    /* space between links */
-    margin-bottom: 10px;
+.support-card {
+ display: inline-block;
+ max-width: 25%;
+ height: auto;
+ background-color: #c9d4d1;
+ padding: 10px;
+ padding-bottom: 35px;
+ margin: 1%;
+ font-family: Tahoma, sans-serif;
 }
 
-.sources a {
-    /* change text color/font/size */
-  color: pink;
-  text-decoration: underline;
-  font-size: 20px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
+.support-card h3 {
+ text-align: center;
+ font-size: 20px;
 }
 
-.sources a.gold {
-    color: gold;
-    text-decoration: underline;
+.support-card cite {
+ display: block;
+ text-align: center;
+ margin-top: -10px;
+ margin-bottom: 4%;
 }
 
-.sources a.silver {
-    color: rgb(223, 223, 223);
-    text-decoration: underline;
+.support-card img {
+ display: block;
+ max-width: 70%;
+ margin: 0 auto;
+ padding-bottom: 7%;
 }
 
-.sources a.bronze {
-    color: rgb(165, 116, 42);
-    text-decoration: underline;
+.support-card p {
+ width: fit-content;
+ margin: 0 auto;
+ padding-left: 5%;
+ text-align: left;
 }
