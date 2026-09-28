@@ -162,10 +162,6 @@ img {
     margin: 0 5px 0 0;
 }
 
-.icon-text {
-    white-space: nowrap; /* prevents linebreak between icon and text */
-}
-
 .pinkText {
     color: pink;
 }
