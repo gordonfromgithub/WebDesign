@@ -23,6 +23,10 @@ nav {
     margin: 0 15px;
 }
 
+.topshelf li:hover {
+    color:rgb(6, 232, 66);
+}
+
 .topshelf a {
     color: white;
     font-size: 30px;
@@ -146,6 +150,13 @@ img {
 
     justify-self: center;
     align-self: center;
+}
+
+/* small images/icons */
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
 }
 
 .pinkText {
