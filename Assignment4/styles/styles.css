@@ -155,10 +155,11 @@ img {
 
 /* small images/icons */
 .icon {
-    width: 40px;
-    height: 40px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
     vertical-align: middle;
-    margin-right: 5px;
+    margin: 0 5px 0 0;
 }
 
 .icon-text {
