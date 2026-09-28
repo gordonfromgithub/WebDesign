@@ -23,10 +23,6 @@ nav {
     margin: 0 15px;
 }
 
-.topshelf li:hover {
-    color:rgb(6, 232, 66);
-}
-
 .topshelf a {
     color: white;
     font-size: 30px;
@@ -38,6 +34,11 @@ nav {
         margin-top: -10px;
         margin-bottom: 4%;
 }
+
+.topshelf a:hover {
+    color:rgb(6, 232, 66);
+}
+
 
 h1 {
     color:white;
@@ -154,9 +155,14 @@ img {
 
 /* small images/icons */
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     vertical-align: middle;
+    margin-right: 5px;
+}
+
+.icon-text {
+    white-space: nowrap; /* prevents linebreak between icon and text */
 }
 
 .pinkText {
