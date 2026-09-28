@@ -248,33 +248,19 @@ img {
   display: block; /* forces the label to take up its entire line and pushes other elements beneath. */
   margin-top: 15px;
   font-weight: bold;
-
-color: #ffffff;
-  font-size: 20px;
-
-  font-family: "Sniglet", system-ui;
-        font-style: normal;
-        margin-top: -10px;
-        margin-bottom: 4%;
 }
 
-.form-v2 input[type="text"],
-.form-v2 input[type="email"],
-.form-v2 select { /* does it actually work like this??? */
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    font-size: 1rem;
-    border: 1px solid #aaa;
-    border-radius: 5px;
-     box-sizing: border-box;
-
-  font-size: 20px;
-
-  font-family: "Sniglet", system-ui;
-        font-weight: 400;
-        font-style: normal;
-}
+    .form-v2 input[type="text"],
+    .form-v2 input[type="email"],
+    .form-v2 select {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        font-size: 1rem;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
 
 .form-v2 button {
   margin-top: 20px;
