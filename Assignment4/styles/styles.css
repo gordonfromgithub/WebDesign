@@ -216,7 +216,7 @@ img {
 <!-- ------------------------------------------------ -->*/
 
 .form-v2 {
-  background-color: #f9f7f1;
+  background-color: red;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #ccc;
@@ -230,15 +230,33 @@ img {
 }
 
 .form-v2 legend {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   font-weight: bold;
   margin-bottom: 15px;
+
+    color:white;
+    text-align: center;
+    font-size: 40px;
+
+    font-family: "DynaPuff", system-ui;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
 }
 
 .form-v2 label {
   display: block; /* forces the label to take up its entire line and pushes other elements beneath. */
   margin-top: 15px;
   font-weight: bold;
+
+color: #ffffff;
+  font-size: 20px;
+  padding: 30px 0;
+
+  font-family: "Sniglet", system-ui;
+        font-style: normal;
+        margin-top: -10px;
+        margin-bottom: 4%;
 }
 
 .form-v2 input[type="text"],
@@ -251,11 +269,19 @@ img {
     border: 1px solid #aaa;
     border-radius: 5px;
      box-sizing: border-box;
+
+  font-size: 20px;
+  padding: 30px 0;
+
+  font-family: "Sniglet", system-ui;
+        font-weight: 400;
+        font-style: normal;
 }
 
 .form-v2 button {
   margin-top: 20px;
-  background-color: #5a3e36;
+  background-color: rgb(6, 232, 66);
+  font-family: "Sniglet", system-ui;
   color: white;
   padding: 10px 20px;
   font-size: 1rem;
@@ -265,5 +291,5 @@ img {
 }
 
 .form-v2 button:hover {
-  background-color: #7a564f;
+  background-color: rgb(71, 235, 115);
 }
