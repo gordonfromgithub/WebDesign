@@ -248,6 +248,9 @@ img {
   display: block; /* forces the label to take up its entire line and pushes other elements beneath. */
   margin-top: 15px;
   font-weight: bold;
+  font-family: "Sniglet", system-ui;
+  color: white;
+  font-size: 25px;
 }
 
     .form-v2 input[type="text"],
@@ -256,6 +259,7 @@ img {
         width: 100%;
         padding: 8px;
         margin-top: 5px;
+        font-family: "Sniglet", system-ui;
         font-size: 1rem;
         border: 1px solid #aaa;
         border-radius: 5px;
