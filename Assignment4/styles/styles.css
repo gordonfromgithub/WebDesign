@@ -342,7 +342,7 @@ table {
   margin: 0 auto;
   margin-bottom: 30px;
   background-color: pink;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 4px;
 }
 
@@ -359,7 +359,7 @@ th { /* table header */
 }
 
 td {
-    color:white;
+    color:black;
         font-family: "Sniglet", system-ui;
 }
 
