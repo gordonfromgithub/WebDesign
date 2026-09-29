@@ -136,7 +136,7 @@ img {
 <!-- ------------------- GALLERY ---------------------- -->
 -- ------------------------------------------------ -->*/
 .gallery {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(3, 400px);
 
     justify-content: center;
