@@ -341,7 +341,7 @@ table {
   width: 78%;
   margin: 0 auto;
   margin-bottom: 30px;
-  background-color: #fdfdfd;
+  background-color: pink;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -353,12 +353,12 @@ th, td {
 }
 
 th { /* table header */
-  background-color: pink;
+  background-color: red;
   color: white;
       font-family: "DynaPuff", system-ui;
 }
 
 td {
-    color:black;
+    color:white;
         font-family: "Sniglet", system-ui;
 }
