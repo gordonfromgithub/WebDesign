@@ -132,9 +132,11 @@ img {
     margin-right: auto;
 }
 
-/* image gallery */
+/*-- ------------------------------------------------ -->
+<!-- ------------------- GALLERY ---------------------- -->
+-- ------------------------------------------------ -->*/
 .gallery {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 400px);
 
     justify-content: center;
@@ -343,22 +345,3 @@ td {
     background-color: rgb(165, 116, 42);
 }
 
-/*-- ------------------------------------------------ -->
-<!-- ------------------- GALLERY ---------------------- -->
--- ------------------------------------------------ -->*/
-#gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        max-width: 600px; 
-        margin: 0 auto;
-        position: relative;
-        top: 10px;
-    }
-
-    #gallery img {
-        width: 30%; /* three images per row (3 x 30% + gaps) */
-        height: auto;
-    }
-    
