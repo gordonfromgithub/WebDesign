@@ -353,30 +353,81 @@ td {
 /* ----- Media Query ----- */
     @media (max-width: 600px) {
 
-        body {
-            font-size: 16px;
-            padding: 10px;
-        }
-
-        nav li {
-            display: block;
-            margin: 10px 0;
-        }
-
-        nav {
-            text-align: center;
-        }
-
-        header, footer {
-            padding: 10px;
-        }
-
-        .gallery img {
-            width: 45%;
-        }
-
-        .support-card {
-            width: 85%;
-            max-width: 85%;
-        }
+    body {
+        font-size: 16px;
+        padding: 10px;
     }
+
+    /* nav bar */
+
+    nav {
+        text-align: center;
+    }
+
+    .topshelf {
+        padding: 10px 0;
+    }
+
+    .topshelf li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .topshelf a {
+        font-size: 24px;
+    }
+
+
+    /* table */
+
+    table {
+        width: 100%;
+        left: 0;
+        margin: 0 auto 30px auto;
+    }
+
+    th,
+    td {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+
+    /* form */
+
+    .form-v2 {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .form-v2 legend {
+        font-size: 28px;
+    }
+
+    .form-v2 label {
+        font-size: 20px;
+    }
+
+
+    /* gallery */
+
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .gallery img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+
+
+    /* cards */
+
+    .support-card {
+        width: 85%;
+        max-width: 85%;
+    }
+}
