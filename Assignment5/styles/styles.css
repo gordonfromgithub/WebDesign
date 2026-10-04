@@ -131,13 +131,7 @@ img {
 }
 
 .separator {
-    max-width: 100 px;
-    width: auto;
-    height: auto;
-    justify-content: center;
-    justify-self: center;
-    align-self: center;
-    width: auto;
+    width: 80%;
     height: auto;
 }
 
