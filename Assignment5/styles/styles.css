@@ -350,3 +350,9 @@ td {
     background-color: rgb(165, 116, 42);
 }
 
+/* media query */
+@media (max-width: 600px) {
+img {max-width: 540px;}
+.gallery img {max-width: 200px;}
+table {width: fit-content;}
+}
