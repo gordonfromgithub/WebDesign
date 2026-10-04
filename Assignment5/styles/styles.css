@@ -1,6 +1,5 @@
 body {
-  /*background-color: #30ff67;*/
-  background-color: black;
+  background-color: #30ff67;
   padding: 20px;
 }
 
@@ -133,9 +132,13 @@ img {
 
 .separator {
     max-width: 100 px;
+    width: auto;
+    height: auto;
     justify-content: center;
     justify-self: center;
     align-self: center;
+    width: auto;
+    height: auto;
 }
 
 /*-- ------------------------------------------------ -->
