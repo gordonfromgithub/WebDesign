@@ -524,4 +524,12 @@ td {
         width: 85%;
         max-width: 85%;
     }
+
+    /* pedigree */
+
+    .pedigree {
+        width: 100%;
+        max-width: 100%;
+        gap: 15px;
+    }
 }
