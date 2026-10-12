@@ -171,11 +171,13 @@ img {
     grid-template-rows: repeat(3, auto);
     gap: 20px;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .family {
-    padding: 10px;
-    border: 1px solid #888888;
+    padding: 5px;
+    border: 1px solid white;
+    background-color: pink;
     text-align:center
 }
 
@@ -190,6 +192,9 @@ img {
 .family p {
     color: white;
     margin-top: 10px;
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .kampala {
