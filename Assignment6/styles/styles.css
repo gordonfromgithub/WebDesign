@@ -533,5 +533,6 @@ td {
         width: max-content;
         margin-left: auto;
         margin-right: auto;
+        justify-content: start;
     }
 }
