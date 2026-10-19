@@ -1,11 +1,11 @@
 body {
-  background-color: #30ff67;
+  background-color: #06e842;
   padding: 20px;
 }
 
 /* Navigation bar background */
 nav {
-    background-color: pink;
+    background-color: #ff9eaf;
 }
 
 /* top nav bar styling */
@@ -192,7 +192,7 @@ img {
 .family {
     padding: 5px;
     border: 1px solid white;
-    background-color: pink;
+    background-color: #ff9eaf;
     text-align:center
 }
 
@@ -258,7 +258,7 @@ img {
 }
 
 .pinkText {
-    color: pink;
+    color: #ff9eaf;
 }
 
 /*-- ------------------------------------------------ -->
@@ -274,7 +274,7 @@ img {
  width: 400px;
  height: 500px;
  height: auto;
- background-color: red;
+ background-color: #ea0000;
  padding: 10px;
  padding-bottom: 35px;
  margin: 1%;
@@ -325,7 +325,7 @@ img {
 <!-- ------------------------------------------------ -->*/
 
 .form-v2 {
-  background-color: red;
+  background-color: #ea0000;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #ccc;
@@ -401,7 +401,7 @@ table {
   width: 78%;
   margin: 0 auto;
   margin-bottom: 30px;
-  background-color: pink;
+  background-color: #ff9eaf;
   border: 1px solid black;
   border-radius: 4px;
 }
@@ -413,7 +413,7 @@ th, td {
 }
 
 th { /* table header */
-  background-color: red;
+  background-color: #ea0000;
   color: white;
       font-family: "DynaPuff", system-ui;
 }
