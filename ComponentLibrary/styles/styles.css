@@ -1,11 +1,11 @@
 body {
-  background-color: #30ff67;
+  background-color: #06e842;
   padding: 20px;
 }
 
 /* Navigation bar background */
 nav {
-    background-color: pink;
+    background-color: #ff9eaf;
 }
 
 /* top nav bar styling */
@@ -160,6 +160,94 @@ img {
     align-self: center;
 }
 
+/*-- ------------------------------------------------ -->
+<!-- ------------------- FAMILY TREE ---------------- -->
+-- ------------------------------------------------ -->*/
+
+
+.pedigree {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.connector{
+    text-align:center;
+}
+
+.connector img {
+    width: 100%;
+    max-width: 130px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.family {
+    padding: 5px;
+    border: 1px solid white;
+    background-color: #ff9eaf;
+    text-align:center
+}
+
+.family img {
+    width: 100%;
+    max-width: 130px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.family p {
+    color: white;
+    margin-top: 10px;
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kampala {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.bridge {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.maruzen {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.tesco {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.tony {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.lady {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.tickezo {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+
 /* small images/icons */
 .icon {
     display: inline-block;
@@ -170,7 +258,7 @@ img {
 }
 
 .pinkText {
-    color: pink;
+    color: #ff9eaf;
 }
 
 /*-- ------------------------------------------------ -->
@@ -186,7 +274,7 @@ img {
  width: 400px;
  height: 500px;
  height: auto;
- background-color: red;
+ background-color: #ea0000;
  padding: 10px;
  padding-bottom: 35px;
  margin: 1%;
@@ -237,7 +325,7 @@ img {
 <!-- ------------------------------------------------ -->*/
 
 .form-v2 {
-  background-color: red;
+  background-color: #ea0000;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #ccc;
@@ -313,7 +401,7 @@ table {
   width: 78%;
   margin: 0 auto;
   margin-bottom: 30px;
-  background-color: pink;
+  background-color: #ff9eaf;
   border: 1px solid black;
   border-radius: 4px;
 }
@@ -325,7 +413,7 @@ th, td {
 }
 
 th { /* table header */
-  background-color: red;
+  background-color: #ea0000;
   color: white;
       font-family: "DynaPuff", system-ui;
 }
@@ -423,11 +511,28 @@ td {
         height: auto;
     }
 
+    /* non-gallery images */
+    
+    img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+
 
     /* cards */
 
     .support-card {
         width: 85%;
         max-width: 85%;
+    }
+
+    /* pedigree */
+
+    .pedigree {
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: start;
     }
 }
