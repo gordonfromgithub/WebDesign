@@ -3,12 +3,12 @@ body {
   padding: 20px;
 }
 
-/* Navigation bar background */
+/*-- ------------------------------------------------ -->
+<!-- --------------- NAV BAR ------------------------ -->
+<!-- ------------------------------------------------ -->*/
 nav {
     background-color: #ff9eaf;
 }
-
-/* top nav bar styling */
 
 .topshelf {
 /* nav bar styling class */
@@ -64,7 +64,9 @@ h2 {
         margin-bottom: 1%;
 }
 
-/* ----- Hero styling ----- */
+/*-- ------------------------------------------------ -->
+<!-- --------------- HERO --------------------------- -->
+<!-- ------------------------------------------------ -->*/
     .hero {
         position: relative;
     }
@@ -121,7 +123,9 @@ h2 {
         margin-bottom: 4%; */
     }
 
-/* image styling */
+/*-- ------------------------------------------------ -->
+<!-- --------------- IMAGES -------------------------- -->
+<!-- ------------------------------------------------ -->*/
 img {
     width: auto;
     height: auto;
@@ -161,7 +165,7 @@ img {
 }
 
 /*-- ------------------------------------------------ -->
-<!-- ------------------- FAMILY TREE ---------------- -->
+<!-- ------------------- GRID ----------------------- -->
 -- ------------------------------------------------ -->*/
 
 
@@ -248,7 +252,9 @@ img {
 }
 
 
-/* small images/icons */
+/*-- ------------------------------------------------ -->
+<!-- --------------- ICONS -------------------------- -->
+<!-- ------------------------------------------------ -->*/
 .icon {
     display: inline-block;
     width: 60px;
@@ -257,12 +263,8 @@ img {
     margin: 0 5px 0 0;
 }
 
-.pinkText {
-    color: #ff9eaf;
-}
-
 /*-- ------------------------------------------------ -->
-<!-- --------------- NEW CARDS ---------------------- -->
+<!-- --------------- CARDS -------------------------- -->
 <!-- ------------------------------------------------ -->*/
 
 .support-card-group { /* parent class */
@@ -423,116 +425,10 @@ td {
         font-family: "Sniglet", system-ui;
 }
 
-.goldRow td {
-    color: black;
-    background-color: gold;
-}
+/*-- ------------------------------------------------ -->
+<!-- -------- ASSIGNMENT 7 -------------------------- -->
+<!-- ------------------------------------------------ -->*/
 
-.silverRow td {
-    color: black;
-    background-color: silver;
-}
+.blog-preview {
 
-.bronzeRow td {
-    color:black;
-    background-color: rgb(165, 116, 42);
-}
-
-/* ----- Media Query ----- */
-    @media (max-width: 600px) {
-
-    body {
-        font-size: 16px;
-        padding: 10px;
-    }
-
-    /* nav bar */
-
-    nav {
-        text-align: center;
-    }
-
-    .topshelf {
-        padding: 10px 0;
-    }
-
-    .topshelf li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .topshelf a {
-        font-size: 24px;
-    }
-
-
-    /* table */
-
-    table {
-        width: 100%;
-        left: 0;
-        margin: 0 auto 30px auto;
-    }
-
-    th,
-    td {
-        padding: 6px;
-        font-size: 14px;
-    }
-
-
-    /* form */
-
-    .form-v2 {
-        width: 100%;
-        padding: 15px;
-        box-sizing: border-box;
-    }
-
-    .form-v2 legend {
-        font-size: 28px;
-    }
-
-    .form-v2 label {
-        font-size: 20px;
-    }
-
-
-    /* gallery */
-
-    .gallery {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-
-    .gallery img {
-        max-width: 100%;
-        width: auto;
-        height: auto;
-    }
-
-    /* non-gallery images */
-    
-    img {
-        max-width: 100%;
-        width: auto;
-        height: auto;
-    }
-
-
-    /* cards */
-
-    .support-card {
-        width: 85%;
-        max-width: 85%;
-    }
-
-    /* pedigree */
-
-    .pedigree {
-        width: max-content;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: start;
-    }
 }
