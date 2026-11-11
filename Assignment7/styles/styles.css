@@ -140,17 +140,19 @@ h2 {
 /*-- ------------------------------------------------ -->
 <!-- --------------- BUTTONS ------------------------ -->
 <!-- ------------------------------------------------ -->*/
-button {
-  margin-top: 20px;
+.hero-buttons {
   background-color: #a72e18;
   /* font-family: */
   color: #ecedad;
-  /* padding: 10px 20px; */
-  margin-left: 40px;
   font-size: 1rem;
   border: none;
-  border-radius: 12px;
+  border-radius: 6px;
   cursor: pointer;
+    
+    display: flex;
+    gap: 8px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 /*-- ------------------------------------------------ -->
