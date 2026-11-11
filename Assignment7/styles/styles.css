@@ -140,20 +140,38 @@ h2 {
 /*-- ------------------------------------------------ -->
 <!-- --------------- BUTTONS ------------------------ -->
 <!-- ------------------------------------------------ -->*/
+/* Button container */
+
 .hero-buttons {
-  background-color: #a72e18;
-  /* font-family: */
-  color: #ecedad;
-  font-size: 1rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-    
     display: flex;
     gap: 8px;
     margin-left: 40px;
     margin-top: 20px;
 }
+
+
+/* Individual buttons */
+
+.hero-button {
+    background-color: #a72e18;
+    color: #ecedad;
+
+    font-size: 1rem;
+
+    width: 165px;
+    height: 48px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 6px;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 /*-- ------------------------------------------------ -->
 <!-- --------------- IMAGES -------------------------- -->
