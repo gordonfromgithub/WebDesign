@@ -61,7 +61,7 @@ h2 {
     .hero {
         position: relative;
         padding: 10px;
-        text-align: left;
+        /* text-align: left; */
     }
 
     .hero.right {
