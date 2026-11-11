@@ -145,8 +145,9 @@ button {
   background-color: #a72e18;
   /* font-family: */
   color: #ecedad;
-  padding: 10px 20px;
-  font-size: 1rem;
+  /* padding: 10px 20px; */
+  margin-left: 40px;
+  font-size: 2rem;
   border: none;
   border-radius: 6px;
   cursor: pointer;
