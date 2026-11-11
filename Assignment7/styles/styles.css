@@ -1,5 +1,5 @@
 body {
-  background-color: #06e842;
+  background-color: #d5aa5b;
   padding: 20px;
 }
 
@@ -7,7 +7,7 @@ body {
 <!-- --------------- NAV BAR ------------------------ -->
 <!-- ------------------------------------------------ -->*/
 nav {
-    background-color: #ff9eaf;
+    background-color: #a72e18;
 }
 
 .topshelf {
@@ -76,7 +76,7 @@ h2 {
         top: 175px;
         left: 0;
         right: 0;
-        text-align: center;
+        text-align: left;
         color: rgba(243, 246, 255, 0.89);
         text-shadow: 1px 1px 10px #000000;
     }
