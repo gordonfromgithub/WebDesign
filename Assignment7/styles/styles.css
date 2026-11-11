@@ -60,6 +60,7 @@ h2 {
 <!-- ------------------------------------------------ -->*/
     .hero {
         position: relative;
+        padding: 10px;
     }
 
     .hero header {
@@ -140,13 +141,27 @@ h2 {
 /*-- ------------------------------------------------ -->
 <!-- --------------- BUTTONS ------------------------ -->
 <!-- ------------------------------------------------ -->*/
-/* Button container */
+/* Button containers */
+
+.hero {
+    text-align: left;
+}
+
+.hero.right {
+    text-align: right;
+}
 
 .hero-buttons {
     display: flex;
     gap: 8px;
     margin-left: 40px;
     margin-top: 20px;
+}
+
+.hero.right .hero-buttons {
+    justify-content: flex-end;
+    margin-left: 0;
+    margin-right: 40px;
 }
 
 
