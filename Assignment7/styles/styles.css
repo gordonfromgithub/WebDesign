@@ -89,6 +89,7 @@ h2 {
   line-height: 1.3;
   color: white;
   margin: 0;
+  padding: 40px;
 } 
 
 .hero h2 {
@@ -96,6 +97,7 @@ h2 {
   font-size: 2rem;
   color: white;
   margin: 0;
+  padding: 40px;
 }
 
     /* blockquote styling*/
