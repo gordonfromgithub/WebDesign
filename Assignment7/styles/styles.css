@@ -352,8 +352,8 @@ img {
 <!-- ------------------------------------------------ -->*/
 .icon {
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     vertical-align: middle;
     margin: 0 5px 0 0;
 }
