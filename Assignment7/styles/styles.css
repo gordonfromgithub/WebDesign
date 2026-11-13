@@ -46,18 +46,18 @@ nav {
 .foot {
 /* nav bar styling class */
     margin: 0;
-    padding: 15px 0;
+    padding: 5px;
     text-align: left;
 }
 
 .foot li {
     display: inline-block; /* displays links horizontally instead of vertically */
-    margin: 0 15px;
+    margin: 0 5px;
 }
 
 .foot a {
     color: #ecedad;
-    font-size: 30px;
+    font-size: 15px;
     text-decoration: none;
     
     /*font-family: "Sniglet", system-ui; (i can find a more interesting font later) */
