@@ -39,6 +39,34 @@ nav {
     color:white;
 }
 
+/*-- ------------------------------------------------ -->
+<!-- --------------- FOOTER ------------------------- -->
+<!-- ------------------------------------------------ -->*/
+
+.foot {
+/* nav bar styling class */
+    margin: 0;
+    padding: 15px 0;
+    text-align: left;
+}
+
+.foot li {
+    display: inline-block; /* displays links horizontally instead of vertically */
+    margin: 0 15px;
+}
+
+.foot a {
+    color: #ecedad;
+    font-size: 30px;
+    text-decoration: none;
+    
+    /*font-family: "Sniglet", system-ui; (i can find a more interesting font later) */
+        font-weight: 400;
+        font-style: normal;
+        /*margin-top: -10px;*/
+        margin-bottom: 4%;
+}
+
 
 /* h1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -179,7 +207,6 @@ margin-right: 40px;
     color: #ecedad;
 
     font-size: 1rem;
-    font-family: "Oswald", system-ui;
     width: 165px;
     height: 48px;
 
