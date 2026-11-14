@@ -524,6 +524,7 @@ th, td { /*mostly just td */
   border-bottom: 1px solid black;
   color:rgb(21, 157, 215);
   font-family: "Playpen Sans", system-ui;
+  padding: 6px;
   border-bottom: 1px solid black;
 }
 
