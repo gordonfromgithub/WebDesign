@@ -214,13 +214,6 @@ margin-right: 40px;
     margin-right: 40px;
 }
 
-.basic-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 20px 0;
-}
-
 
 /* Individual buttons */
 
@@ -269,10 +262,10 @@ margin-right: 40px;
 }
 
 .basic-button {
-    /* display: block;
+    display: block;
     margin: 20px auto;
     padding: 12px 25px;
-    width: 20%; */
+    width: 20%;
 
     background-color: #a72e18;
     color: #ecedad;
@@ -293,7 +286,7 @@ margin-right: 40px;
 .basic-button:focus,
 .basic-button:active,
 .basic-button:visited {
-    color: #ecedad !important;
+    color: #ecedad;
 }
 
 
