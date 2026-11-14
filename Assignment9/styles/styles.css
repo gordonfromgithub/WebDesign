@@ -236,7 +236,8 @@ margin-right: 40px;
 
 .upload-button {
     display: block;
-    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
 
     background-color: #a72e18;
     color: #ecedad;
