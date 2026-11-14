@@ -261,30 +261,22 @@ margin-right: 40px;
     text-decoration: none;
 }
 
-.basic-button {
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.center-button {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    width: 300px;
-    min-height: 70px;
-    box-sizing: border-box;
-
-    margin: 20px auto;
-    padding: 12px 25px;
-
     background-color: #a72e18;
     color: #ecedad !important;
-
     font-family: "Oswald", system-ui;
     font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
 
     border: none;
-    border-radius: 8px;
-
     cursor: pointer;
 }
 
