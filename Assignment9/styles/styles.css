@@ -48,6 +48,8 @@ nav {
     margin: 0;
     padding: 5px;
     text-align: left;
+    position:fixed;
+    bottom:0px;
 }
 
 .foot li {
@@ -517,21 +519,12 @@ table {
   border-radius: 4px;
 }
 
-th, td {
-  /* padding: 6px */
+th, td { /*mostly just td */
   text-align: left;
   border-bottom: 1px solid black;
-}
-
-th { /* table header */
-  background-color: #ea0000;
-  color: white;
-      font-family: "DynaPuff", system-ui;
-}
-
-td {
-    color:rgb(21, 157, 215);
-        font-family: "Playpen Sans", system-ui;
+  color:rgb(21, 157, 215);
+  font-family: "Playpen Sans", system-ui;
+  border-bottom: 1px solid black;
 }
 
 /*-- ------------------------------------------------ -->
