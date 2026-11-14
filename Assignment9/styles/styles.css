@@ -265,6 +265,7 @@ margin-right: 40px;
     display: block;
     margin: 20px auto;
     padding: 12px 25px;
+    width: 20%;
 
     background-color: #a72e18;
     color: #ecedad;
@@ -277,6 +278,7 @@ margin-right: 40px;
     border-radius: 8px;
 
     cursor: pointer;
+    text-decoration: none;
 }
 
 
