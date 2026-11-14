@@ -89,6 +89,20 @@ nav {
 }
 
 /*-- ------------------------------------------------ -->
+<!-- ---------------- PAGE HEADER ------------------- -->
+<!-- ------------------------------------------------ -->*/
+
+.top{
+  color: #ecedad;
+}
+
+.top h1{
+    text-align:center;
+    font-family: "Knewave", system-ui;
+    font-size: 6rem;
+}
+
+/*-- ------------------------------------------------ -->
 <!-- --------------- HERO --------------------------- -->
 <!-- ------------------------------------------------ -->*/
     .hero {
@@ -498,14 +512,13 @@ table {
   width: 78%;
   margin: 0 auto;
   margin-bottom: 30px;
-  background-color: #ff9eaf;
+  background-color: #a72e18;
   border: 1px solid black;
   border-radius: 4px;
 }
 
 th, td {
   padding: 12px;
-  border: 1px solid black;
   text-align: left;
 }
 
@@ -516,8 +529,8 @@ th { /* table header */
 }
 
 td {
-    color:black;
-        font-family: "Sniglet", system-ui;
+    color:rgb(21, 157, 215);
+        font-family: "Playpen Sans", system-ui;
 }
 
 /*-- ------------------------------------------------ -->
