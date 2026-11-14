@@ -237,11 +237,10 @@ margin-right: 40px;
 .upload-button {
     display: block;
     margin: 20px auto;
-    padding: 12px 25px;
 
     background-color: #a72e18;
     color: #ecedad;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", system-ui;
 
     font-size: 3rem;
     width: 300px;
@@ -250,6 +249,7 @@ margin-right: 40px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
