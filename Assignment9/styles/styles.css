@@ -531,7 +531,7 @@ th, td { /*mostly just td */
   border-bottom: 1px solid black;
   color:rgb(146, 222, 255);
   font-family: "Playpen Sans", system-ui;
-  padding: 6px;
+  /*padding: 6px; */
   border-bottom: 1px solid black;
   height: 40px;
 }
