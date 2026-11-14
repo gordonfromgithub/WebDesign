@@ -234,6 +234,24 @@ margin-right: 40px;
 
 /* non-hero buttons */
 
+.upload-button {
+    position: relative;
+    background-color: #a72e18;
+    color: #ecedad;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 3rem;
+    width: 300px;
+    height: 100px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
 
 
 /*-- ------------------------------------------------ -->
