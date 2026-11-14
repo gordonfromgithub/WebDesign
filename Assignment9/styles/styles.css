@@ -262,33 +262,41 @@ margin-right: 40px;
 }
 
 .basic-button {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    min-height: 70px;
+    box-sizing: border-box;
+
     margin: 20px auto;
     padding: 12px 25px;
-    width: 20%;
 
     background-color: #a72e18;
-    color: #ecedad;
+    color: #ecedad !important;
 
     font-family: "Oswald", system-ui;
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
+    text-decoration: none;
 
     border: none;
     border-radius: 8px;
 
     cursor: pointer;
-    text-decoration: none;
 }
 
-.basic-button:hover,
-.basic-button:focus,
-.basic-button:active,
-.basic-button:visited {
-    color: #ecedad;
-}
+/* Preserve text color in every hyperlink state */
 
+a.basic-button:link,
+a.basic-button:visited,
+a.basic-button:hover,
+a.basic-button:active,
+a.basic-button:focus {
+    color: #ecedad !important;
+}
 
 /*-- ------------------------------------------------ -->
 <!-- --------------- IMAGES -------------------------- -->
