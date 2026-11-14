@@ -261,6 +261,24 @@ margin-right: 40px;
     text-decoration: none;
 }
 
+.basic-button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+
+    background-color: #a72e18;
+    color: #ecedad;
+
+    font-family: "Oswald", system-ui;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
 
 /*-- ------------------------------------------------ -->
 <!-- --------------- IMAGES -------------------------- -->
