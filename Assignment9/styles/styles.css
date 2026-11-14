@@ -243,6 +243,8 @@ margin-right: 40px;
     display: block;
     align-items: center;
     justify-content: center;
+    margin: 20px auto;
+    padding: 12px 25px;
 
     background-color: #a72e18;
     color: #ecedad;
