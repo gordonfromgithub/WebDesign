@@ -262,7 +262,7 @@ margin-right: 40px;
 }
 
 .basic-button {
-    display: inline-block;
+    display: block;
     margin: 20px auto;
     padding: 12px 25px;
     width: 20%;
@@ -280,6 +280,13 @@ margin-right: 40px;
 
     cursor: pointer;
     text-decoration: none;
+}
+
+.basic-button:hover,
+.basic-button:focus,
+.basic-button:active,
+.basic-button:visited {
+    color: #ecedad;
 }
 
 
