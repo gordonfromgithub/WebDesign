@@ -510,7 +510,7 @@ img {
 <!-- ------------------------------------------------ -->*/
 
 .form-v2 {
-  background-color: #a72e18;
+  background-color: #601205;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #ccc;
@@ -526,7 +526,7 @@ img {
 .form-v2 legend {
     color: #ecedad;
     text-align:center;
-    font-family: "Knewave", system-ui;
+    font-family: "Oswald", system-ui;
     font-size: 40px;
 }
 
@@ -534,8 +534,7 @@ img {
   display: block; /* forces the label to take up its entire line and pushes other elements beneath. */
   margin-top: 15px;
   color: #ecedad;
-  text-align:center;
-  font-family: "Knewave", system-ui;
+  font-family: "Playpen Sans", system-ui;
   font-size: 25px;
 }
 
@@ -545,7 +544,6 @@ img {
         width: 100%;
         padding: 8px;
         margin-top: 5px;
-        font-family: "Sniglet", system-ui;
         font-size: 1rem;
         border: 1px solid #aaa;
         border-radius: 5px;
@@ -554,9 +552,9 @@ img {
 
 .form-v2 button {
   margin-top: 20px;
-  background-color: rgb(6, 232, 66);
-  font-family: "Sniglet", system-ui;
-  color: white;
+  background-color: #a72e18;
+  font-family: "Playpen Sans", system-ui;
+    color: #ecedad;
   padding: 10px 20px;
   font-size: 1rem;
   border: none;
@@ -565,7 +563,7 @@ img {
 }
 
 .form-v2 button:hover {
-  background-color: rgb(71, 235, 115);
+  background-color: #c0442e;
 }
 
 /*-- ------------------------------------------------ -->
