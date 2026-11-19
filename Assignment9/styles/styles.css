@@ -535,13 +535,34 @@ img {
   margin-top: 15px;
   color: #ecedad;
   font-family: "Playpen Sans", system-ui;
-  font-size: 25px;
+  font-size: 15px;
 }
 
-    .form-v2 input[type="text"],
-    .form-v2 input[type="email"],
+    .form-v2 input[type="long"],
     .form-v2 select {
-        width: 100%;
+        width: 80%;
+        padding: 8px;
+        margin-top: 5px;
+        font-size: 1rem;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .form-v2 input[type="medium"]
+    {
+        width: 55%;
+        padding: 8px;
+        margin-top: 5px;
+        font-size: 1rem;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .form-v2 input[type="short"]
+    {
+        width: 30%;
         padding: 8px;
         margin-top: 5px;
         font-size: 1rem;
