@@ -540,7 +540,7 @@ img {
 
     .form-v2 input[type="long"],
     .form-v2 select {
-        width: 80%;
+        width: 100%;
         padding: 8px;
         margin-top: 5px;
         font-size: 1rem;
