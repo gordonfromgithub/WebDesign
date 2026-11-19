@@ -83,6 +83,7 @@ nav {
 .blurb h2 {
   font-family: "Playpen Sans", system-ui;
   font-size: 1rem;
+  font-weight: normal;
   margin: 0;
 }
 
