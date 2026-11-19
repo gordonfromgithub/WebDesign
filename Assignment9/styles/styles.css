@@ -516,7 +516,8 @@ img {
   border-radius: 10px;
   border: 1px solid #ccc;
   width: 75%;
-  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .form-v2 fieldset {
