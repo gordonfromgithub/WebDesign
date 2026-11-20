@@ -326,7 +326,7 @@ img {
 
 .leftImage {
     width: 375px;
-    height: auto;
+    height: 200px;
     max-width: 100%;
     display: block;
     margin-left: auto;
