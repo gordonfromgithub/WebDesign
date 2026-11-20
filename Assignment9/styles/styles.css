@@ -343,6 +343,11 @@ img {
 .container text{
     margin-left: 10%;
     text-align: left;
+  display: block; /* forces the label to take up its entire line and pushes other elements beneath. */
+  margin-top: 15px;
+  color: #ecedad;
+  font-family: "Playpen Sans", system-ui;
+  font-size: 15px;
 }
 
 /*-- ------------------------------------------------ -->
