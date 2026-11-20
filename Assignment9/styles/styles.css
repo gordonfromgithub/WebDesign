@@ -338,6 +338,9 @@ img {
 -- ------------------------------------------------ -->*/
 .container {
     background-color: #a72e18;
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .container text{
