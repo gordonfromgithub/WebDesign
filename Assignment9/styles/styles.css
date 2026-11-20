@@ -318,8 +318,8 @@ img {
 }
 
 .leftImage {
-    width: 500px;
-    height: auto;
+    width: 750px;
+    height: 400px;
     display: block;
     justify-content: left;
 }
