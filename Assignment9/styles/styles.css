@@ -1,4 +1,4 @@
-body {
+backgroundbody {
   background-color: #d5aa5b;
   padding: 20px;
 }
@@ -317,11 +317,27 @@ img {
     margin-bottom: 4%;
 }
 
-.leftImage {
+/*.leftImage {
     width: 750px;
     height: 400px;
     display: block;
     justify-content: left;
+}*/
+
+.leftImage {
+    width: 375px;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-- ------------------------------------------------ -->
+<!-- --------------- CONTAINER ---------------------- -->
+-- ------------------------------------------------ -->*/
+.container {
+    background-color: #a72e18;
 }
 
 /*-- ------------------------------------------------ -->
