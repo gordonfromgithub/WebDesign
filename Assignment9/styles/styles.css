@@ -303,7 +303,8 @@ img {
 
 
 .leftImage {
-    width: 375px;
+    /*width: 375px;*/
+    width: 35%;
     height: auto;
     max-width: 100%;
     display: block;
