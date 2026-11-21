@@ -116,12 +116,16 @@ nav {
 
     .hero header {
         position: absolute;
-        top: 175px;
+        top: 20%;
         left: 0;
         right: 0;
         text-align: left;
         color: rgba(243, 246, 255, 0.89);
         text-shadow: 1px 1px 10px #000000;
+        
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-wrap: break-word;
     }
     
     .hero img {
@@ -136,16 +140,16 @@ nav {
     /* text styling */
 .hero h1 {
     font-family: "Oswald", system-ui;
-    font-size: 6rem;
+    font-size: clamp(2rem, 5vw, 6rem);
     font-weight: 600;
-    line-height: 1.3;
+    line-height: 1.2;
     color: white;
     margin: 0 0 0 40px;
 }
 
 .hero h2 {
     font-family: "Oswald", system-ui;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     color: white;
     margin: 0 0 0 40px;
 }
@@ -220,9 +224,9 @@ margin-right: 40px;
     color: #ecedad;
     font-family: "Playpen Sans", system-ui;
 
-    font-size: 1rem;
-    width: 165px;
-    height: 48px;
+    font-size: clamp(0.7rem, 1vw, 1rem);
+    width: clamp(100px, 12vw, 165px);
+    height: clamp(36px, 4vw, 48px);
 
     display: inline-flex;
     align-items: center;
@@ -230,7 +234,6 @@ margin-right: 40px;
 
     border: none;
     border-radius: 6px;
-
     text-decoration: none;
     cursor: pointer;
 }
