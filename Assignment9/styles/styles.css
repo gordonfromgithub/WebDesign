@@ -49,7 +49,6 @@ nav {
 <!-- ------------------------------------------------ -->*/
 
 .foot {
-/* nav bar styling class */
     margin: 0;
     padding: 5px;
     text-align: left;
@@ -249,7 +248,7 @@ margin-right: 40px;
     min-height: 70px;
     box-sizing: border-box;
 
-    margin: 20px auto;
+    /*margin: 20px auto; (removed to prevent new line)*/
     padding: 12px 25px;
 
     background-color: #a72e18;
