@@ -154,6 +154,13 @@ nav {
     margin: 0 0 0 40px;
 }
 
+.hero h3 {
+    font-family: "Playpen Sans", system-ui;
+    font-size: clamp(0.5rem, 2vw, 2rem);
+    color: white;
+    margin: 0 0 0 40px;
+}
+
 /* right-side styling */
 .hero.right header {
     text-align: right;
