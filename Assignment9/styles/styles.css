@@ -217,14 +217,16 @@ margin-right: 40px;
     margin-top: 20px;
 }
 
-.hero-buttons.source {
+.hero-buttons.source-buttons {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap;          /* Prevent buttons from wrapping */
     gap: 8px;
 
     width: fit-content;
     max-width: calc(100% - 80px);
+
+    /*overflow-x: auto;          Allow horizontal scrolling*/
 }
 
 .hero.right .hero-buttons {
@@ -255,7 +257,7 @@ margin-right: 40px;
     cursor: pointer;
 }
 
-.hero-buttons.source .hero-button {
+.hero-buttons.source-buttons .hero-button {
     flex: 0 0 clamp(100px, 12vw, 165px);
 }
 
