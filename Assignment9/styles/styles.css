@@ -157,7 +157,7 @@ nav {
 .hero h3 {
     font-family: "Playpen Sans", system-ui;
     font-size: clamp(0.55rem, 1.1vw, 1.1rem);
-    color: #ecedad;
+    color: white;
     margin: 0 0 0 40px;
 }
 
