@@ -157,7 +157,7 @@ nav {
 .hero h3 {
     font-family: "Playpen Sans", system-ui;
     font-size: clamp(0.55rem, 1.1vw, 1.1rem);
-    color: white;
+    color: #ecedad;
     margin: 0 0 0 40px;
 }
 
@@ -217,6 +217,16 @@ margin-right: 40px;
     margin-top: 20px;
 }
 
+.hero-buttons.source {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+
+    width: fit-content;
+    max-width: calc(100% - 80px);
+}
+
 .hero.right .hero-buttons {
     justify-content: flex-end;
     margin-left: 0;
@@ -243,6 +253,10 @@ margin-right: 40px;
     border-radius: 6px;
     text-decoration: none;
     cursor: pointer;
+}
+
+.hero-buttons.source .hero-button {
+    flex: 0 0 clamp(100px, 12vw, 165px);
 }
 
 /* non-hero buttons */
