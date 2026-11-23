@@ -109,33 +109,46 @@ nav {
 /*-- ------------------------------------------------ -->
 <!-- --------------- HERO --------------------------- -->
 <!-- ------------------------------------------------ -->*/
-    .hero {
-        position: relative;
-        padding: 10px;
-    }
 
-    .hero header {
-        position: absolute;
-        top: 20%;
-        left: 0;
-        right: 0;
-        text-align: left;
-        color: rgba(243, 246, 255, 0.89);
-        text-shadow: 1px 1px 10px #000000;
-        
-        max-width: 100%;
-        box-sizing: border-box;
-        overflow-wrap: break-word;
-    }
-    
-    .hero img {
-        display: block;
-        max-width: 100%;
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
+.hero {
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.hero img {
+    position: absolute;
+    inset: 0;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: none;
+
+    object-fit: cover;
+    object-position: center;
+
+    z-index: 0;
+}
+
+.hero header {
+    position: relative;
+    z-index: 1;
+
+    top: auto;
+    left: auto;
+    right: auto;
+
+    text-align: left;
+    color: rgba(243, 246, 255, 0.89);
+    text-shadow: 1px 1px 10px #000000;
+
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
 
     /* text styling */
 .hero h1 {
@@ -217,16 +230,19 @@ margin-right: 40px;
     margin-top: 20px;
 }
 
+/* source button container */
+
 .hero-buttons.source-buttons {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;          /* Prevent buttons from wrapping */
+    flex-wrap: nowrap;
+
     gap: 8px;
 
-    width: fit-content;
+    width: max-content;
     max-width: calc(100% - 80px);
 
-    /*overflow-x: auto;          Allow horizontal scrolling*/
+    overflow-x: auto;
 }
 
 .hero.right .hero-buttons {
@@ -259,6 +275,7 @@ margin-right: 40px;
 
 .hero-buttons.source-buttons .hero-button {
     flex: 0 0 clamp(100px, 12vw, 165px);
+    box-sizing: border-box;
 }
 
 /* non-hero buttons */
