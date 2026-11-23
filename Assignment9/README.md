@@ -4,6 +4,8 @@ to save time. Instead, my limited timeframe meant I was scatter-brained and freq
 
 2. Navigating my website feels easy enough now that it's finally feature/content complete, although I have to assume the buttons on the contact/application pages that don't lead to any new pages could be a little confusing for someone who doesn't understand the website is mostly just a proof-of-concept at this stage.
 
-3. 
+3. Honestly, I struggled so much during this project that I can't even recall which page or element I struggled with the most, it's all a blur to me. But I did consistently have a surprising amount more trouble than I expected with even the non-technical aspects of this process, such as researching and writing. And making sure each page's layout held up when the window was resized was always a pain, as well.
 
-4. 
+4. With an extra week on this project (as opposed to a few extra days), I probably would have liked to flesh out the submission-based aspects of the site more; so that it properly acknowledges when the user submits a form or application (or at least pretends to). For the applications in particular, I feel as though the "apply" button could have taken the user to a new page with a form to fill out; but since said form could be extremely variable on a business-to-business basis; relying on external links and essentially just using the site as a promotional hub was the best solution I could come up with.
+
+5. If I had to choose something about the site to take pride in, it would be the warm aesthetic. But overall, I didn't have much passion behind this project, considering this client wasn't even my first choice. Then again, I suppose that's a rather accurate portrayal of how this career plays out in the real world.
